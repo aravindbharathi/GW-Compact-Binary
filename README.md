@@ -4,7 +4,7 @@ Documentation and code repository for the PH 821 course project. The final submi
 
 The code simulates gravitational waves produced during the inspiral phase of compact binaries in circular orbits under linearised gravity. Each of these components can be independently extended. 
 
-A static image of the ring of test particles is shown below
+A static image of the result of a ring of test particles when a plus polarised gravitational wave passes perpendicular to the plane
 
 ![img](ringparticles.png)
 

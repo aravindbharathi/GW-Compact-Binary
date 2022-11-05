@@ -1,0 +1,20 @@
+# 2D Plot
+radius : 10 # radius of ring
+numberofparticles : 17 # 1 + 2^k for optimal results (otherwise it may not be the cutest circle)
+inclination_angle : 0 # in degrees
+mass1 : 1.4 # mass of compact object 1 in solar masses
+mass2 : 1.4 # mass of compact object 2 in solar masses
+velocity : 0.01 # in terms of speed of light (assuming circular orbit)
+distance : 10 # distance to binary system in kpc
+
+# Include phase factor through _complex argument
+## 1 and no --> 1.   1 and yes --> 1j
+C_plus : 1
+C_plus_complex : 'no'
+C_cross : 1
+C_cross_complex : 'yes'
+
+# 3D Plot
+freq_cutoff : 150 # in Hz
+z_dir : 0
+numberofplanes : 10 # more planes make the plot look more beautiful but also takes considerably more processing time
